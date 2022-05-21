@@ -295,3 +295,29 @@ body{
     width: 75%;
     margin: 0 auto;
   }
+
+
+  .footercontainer{
+      display: flex;
+      width: 1440px;
+
+  }
+
+  .contactform{
+      width: 50%;
+      border-right: 1px solid #ddd;
+  }
+  
+  .footerdetails{
+      width: 50%;
+  }
+
+  .footer-containers{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+  }
+
+ .h1f{
+     font-family: 'Custom3';
+ }
+
