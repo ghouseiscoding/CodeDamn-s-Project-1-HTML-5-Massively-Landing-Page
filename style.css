@@ -300,24 +300,66 @@ body{
   .footercontainer{
       display: flex;
       width: 1440px;
-
+      height: 500px;
   }
 
   .contactform{
       width: 50%;
       border-right: 1px solid #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
   
+  .formlabel{
+      font-family: "Custom1";
+      color: #717981;
+  }
+
+  .formfield{
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      width: 500px;
+      height: 40px;
+  }
+
+  .textarea{
+      height: 150px;
+  }
+
+  .submit{
+    font-family: "Custom1";
+    color: #717981;
+      background-color: #f5f5f5;
+      border: 3px solid #717981;
+      padding: 10px 30px;
+
+  }
+
   .footerdetails{
       width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
 
   .footer-containers{
     border-bottom: 1px solid #ddd;
     display: flex;
+    width: 100%;
   }
 
  .h1f{
-     font-family: 'Custom3';
+    font-family: "Custom1";
+    color: #717981;
  }
 
+ .footerh1{
+    margin: 50px;
+ }
+
+ .footerdesc{
+    margin: 50px;
+
+ }
