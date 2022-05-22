@@ -363,3 +363,47 @@ body{
     margin: 50px;
 
  }
+
+
+
+ /*###############   MEDIA QUERIES ###################*/
+
+ @media screen and (max-width:500px) {
+.body{
+    width: 500px
+}
+     .footercontainer{
+         
+         flex-direction: column;
+         justify-content: center;
+        
+         height: auto;
+     }
+
+     .formfield{
+         width: 250px;
+     }
+
+     .footer-containers{
+         flex-direction: column;
+     }
+
+     .footerh1{
+        margin: 10px;
+     }
+    
+     .footerdesc{
+        margin: 10px;
+    
+     }
+
+     .footerdetails{
+        width: 100%;
+     }
+
+     .contactform{
+         width: 100%;
+         display: block;
+         margin-left: 10px;
+     }
+ }
